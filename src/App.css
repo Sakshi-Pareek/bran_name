@@ -1,38 +1,97 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #96bb7c;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #96bb7c;
+  border-radius: 10px;
+}
+.ani{
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+/* ============================back-to-top===================== */
+.updown_animation {
+  animation: animateDiv 1s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes animateDiv {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+/* ========================preloader======================= */
+.text_loading {
+  font: 700 3em Roboto, sans-serif;
   text-align: center;
+  user-select: none;
+}
+.letters_loading {
+  color: rgba(255, 255, 255, 0.473);
+  position: relative;
+}
+.text_loading .letters_loading:nth-child(2):before {
+  animation-delay: 0.2s;
+}
+.text_loading .letters-loading:nth-child(3):before {
+  animation-delay: 0.4s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text_loading .letters_loading:nth-child(4):before {
+  animation-delay: 0.6s;
+}
+.text_loading .letters_loading:nth-child(5):before {
+  animation-delay: 0.8s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.text_loading .letters_loading:nth-child(6):before {
+  animation-delay: 1s;
+}
+
+.text_loading .letters_loading:nth-child(7):before {
+  animation-delay: 1.2s;
+}
+.text_loading .letters_loading:before {
+  animation: letters_loading 4s infinite;
+  color: #fff;
+  content: attr(data-text-preloader);
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: rotateY(-90deg);
+}
+@keyframes letters_loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
   }
 }
