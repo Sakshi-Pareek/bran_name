@@ -30,7 +30,12 @@ const GetQuality = () => {
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
-        <div className="flex flex-row flex-wrap max-w-[1045px] lg:justify-between justify-center lg:gap-0 md:gap-10 sm:gap-8 max-sm:gap-8 mx-auto">
+        <div
+          className="flex flex-row flex-wrap max-w-[1045px] lg:justify-between justify-center lg:gap-0 md:gap-10 sm:gap-8 max-sm:gap-8 mx-auto"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
           <div className="lg:w-[31.4%] md:w-[45%] w-[80%] shadow-[0px_13px_19px_0px_rgba(0,_0,_0,_0.07)] py-[23px] group hover:shadow-[unset] transition-all duration-300 ease-linear">
             <div className="xl:px-10 sm:px-8 px-4 md:py-[50px] py-8 flex flex-col md:gap-[35px] gap-5 justify-center items-center group-hover:bg-[#2D4059] transition-all duration-300 ease-linear relative z-0 cursor-pointer">
               <NewCircle />

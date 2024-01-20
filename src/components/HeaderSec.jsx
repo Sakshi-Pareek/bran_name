@@ -124,10 +124,10 @@ const HeaderSec = () => {
           </div>
         </div>
         <div className="container mx-auto xl:max-w-[1320px] px-3">
-          <div className="flex flex-row flex-wrap items-center lg:justify-between">
+          <div className="flex flex-row flex-wrap items-center lg:justify-between lg:pt-0 pt-10">
             <div className="lg:w-6/12">
               <p
-                className="text-[#96BB7C] text-base !leading-[150%] font-bold tracking-[0.1px] sm:pb-[30px] pb-[8px]"
+                className="text-[#96BB7C] text-base !leading-[150%] font-bold tracking-[0.1px] sm:pb-[20px] pb-4"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
@@ -135,7 +135,7 @@ const HeaderSec = () => {
                 Join Us
               </p>
               <h1
-                className="text-[#252B42] lg:text-[58px] sm:text-[45px] text-[35px] font-bold leading-[137.931%] tracking-[0.2px] sm:pb-[30px] pb-[12px]"
+                className="text-[#252B42] lg:text-[58px] sm:text-[45px] text-[35px] font-bold leading-[137.931%] tracking-[0.2px] sm:pb-[20px] pb-4"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
@@ -143,7 +143,7 @@ const HeaderSec = () => {
                 HIGH QUALITY COURSES{" "}
               </h1>
               <p
-                className="text-[#737373] leading-[150%] text-[20px] font-normal tracking-[0.2px] lg:max-w-[458px] pb-[30px]"
+                className="text-[#737373] leading-[150%] text-[20px] font-normal tracking-[0.2px] lg:max-w-[458px] sm:pb-[20px] pb-4"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
@@ -165,7 +165,7 @@ const HeaderSec = () => {
               </div>
             </div>
             <div
-              className="lg:w-6/12 w-full flex items-center justify-center pt-4 lg:pt-0"
+              className="lg:w-6/12 w-full flex items-center justify-center"
               data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-easing="linear"

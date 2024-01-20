@@ -27,7 +27,7 @@ const Newsletter = () => {
             <input
               type="email"
               placeholder="Your Email"
-              className="!text-[#737373] text-[14px] font-normal leading-[200%] tracking-[0.2px] sm:py-[15px] py-3 ps-5 rounded-[5px] bg-[#F9F9F9] outline-none"
+              className="!text-[#737373] text-[14px] font-normal leading-[200%] tracking-[0.2px] sm:py-[15px] py-3 ps-5 rounded-[5px] bg-[#F9F9F9] outline-none w-[90%]"
             />
             <button className="text-white text-[14px] font-normal leading-[200%] tracking-[0.2px] sm:py-[15px] py-3 px-[23px] bg-[#96BB7C] rounded-r-[5px] hover:scale-[0.9] hover:rounded-[5px] transition-all duration-300 ease-linear hover:shadow-[3px_0px_10px_1px_#96BB7C] outline-none border-[#E6E6E6] border">
               Subscribe
