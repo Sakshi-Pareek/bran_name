@@ -6,6 +6,11 @@ import HeaderImg from "../assets/images/webp/heroImg.webp";
 
 const HeaderSec = () => {
   const [show, setshow] = useState(true);
+  if (show === false) {
+    document.body.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+  }
   return (
     <>
       <div className="relative">
@@ -22,7 +27,7 @@ const HeaderSec = () => {
         <div className="container xl:max-w-[980px] mx-auto lg:px-4 px-6">
           <div className="flex justify-between items-center py-4 ">
             <div className="flex items-center gap-[87px]">
-              <p className="text-[#252B42] text-2xl !leading-[133.333%] font-bold translate-[0.1px]">
+              <p className="text-[#252B42] text-2xl !leading-[133.333%] font-bold translate-[0.1px] cursor-pointer">
                 Brandname
               </p>
               <ul
@@ -30,39 +35,39 @@ const HeaderSec = () => {
                   show ? "left-[-100%]" : "left-0 z-10 bg-[#ffffff]"
                 } gap-[21px] flex items-center justify-center max-lg:fixed flex-row max-lg:flex-col top-0 max-lg:w-full max-lg:h-full max-lg:min-h-screen max-lg:justify-center transition-all ease-linear duration-300`}
               >
-                <li>
+                <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px]"
-                    href=""
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    href="#home"
                   >
                     Home
                   </a>
                 </li>
-                <li>
+                <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px]"
-                    href=""
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    href="#Product"
                   >
                     Product
                   </a>
                 </li>
-                <li>
+                <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px]"
-                    href=""
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    href="#Pricing"
                   >
                     Pricing
                   </a>
                 </li>
-                <li>
+                <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px]"
-                    href=""
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    href="#Contact"
                   >
                     Contact
                   </a>
                 </li>
-                <li className="lg:hidden flex">
+                <li className="lg:hidden flex" onClick={() => setshow(!show)}>
                   <a
                     className="text-[#96BB7C] text-sm !leading-[157.143%] font-bold tracking-[0.2px]"
                     href=""
@@ -71,7 +76,7 @@ const HeaderSec = () => {
                     login
                   </a>
                 </li>
-                <li className="lg:hidden flex">
+                <li className="lg:hidden flex" onClick={() => setshow(!show)}>
                   <a
                     className="group py-[15px] px-[25px] rounded-[5px] whitespace-nowrap bg-[#96BB7C] hover:shadow-[0_2px_15px_rgba(150,_187,_124,_1)] transition-all ease-linear duration-500 flex gap-[15px] items-center text-sm !leading-[157.143%] tracking-[0.2px] font-bold text-white"
                     href=""
@@ -123,7 +128,7 @@ const HeaderSec = () => {
             </div>
           </div>
         </div>
-        <div className="container mx-auto xl:max-w-[1320px] px-3">
+        <div className="container mx-auto xl:max-w-[1320px] px-3" id="home">
           <div className="flex flex-row flex-wrap items-center lg:justify-between lg:pt-0 pt-10">
             <div className="lg:w-6/12">
               <p

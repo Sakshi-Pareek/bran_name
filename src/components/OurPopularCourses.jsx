@@ -41,7 +41,7 @@ const OurPopularCourses = () => {
               realms of Classical physics: Newtonian mechanics
             </p>
             <button
-              className="flex items-center text-[#96BB7C] text-[14px] font-bold leading-[171.429%] tracking-[0.2px] gap-2.5"
+              className="flex items-center text-[#96BB7C] text-[14px] font-bold leading-[171.429%] tracking-[0.2px] gap-2.5 group"
               data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-easing="linear"

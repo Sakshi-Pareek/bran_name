@@ -1076,7 +1076,7 @@ export const PCIcon = () => {
 };
 export const RightArrow = () => {
   return (
-    <svg
+    <svg className="group-hover:ml-1 transition-all duration-200 ease-linear"
       width="10"
       height="17"
       viewBox="0 0 10 17"

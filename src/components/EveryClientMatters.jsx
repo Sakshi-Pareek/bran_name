@@ -14,7 +14,7 @@ const EveryClientMatters = () => {
   return (
     <>
       <div className="max-w-[1334px] px-3 mx-auto xl:py-40 lg:py-24 md:py-16 py-10 xl:mb-[36px]">
-        <h5 className="text-[14px] text-[#96BB7C] font-bold leading-[171.429%] tracking-[0.2px] text-center"data-aos="zoom-in"
+        <h5 className="text-[14px] text-[#96BB7C] font-bold leading-[171.429%] tracking-[0.2px] text-center"data-aos="zoom-in" id="Product"
               data-aos-duration="1000"
               data-aos-easing="linear">
           Practice Advice
