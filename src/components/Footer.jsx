@@ -217,7 +217,7 @@ const Footer = () => {
           <p className="text-[#737373] text-[14px] font-bold leading-[171.429%] tracking-[ 0.2px] text-center">
             Made With Love By Figmaland All Right Reserved
           </p>
-          <div className="flex items-center gap-5 xl:mr-14">
+          <div className="flex items-center gap-5 mr-14">
             <a href="https://www.facebook.com/" target="_blank" className="group">
               <Facebook />
             </a>

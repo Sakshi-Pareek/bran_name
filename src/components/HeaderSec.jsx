@@ -73,7 +73,7 @@ const HeaderSec = () => {
                     href=""
                   >
                     {" "}
-                    login
+                    Login
                   </a>
                 </li>
                 <li className="lg:hidden flex" onClick={() => setshow(!show)}>
@@ -94,7 +94,7 @@ const HeaderSec = () => {
                 className="text-[#96BB7C] text-sm !leading-[157.143%] font-bold tracking-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[16px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out
                "
               >
-                login
+                Login
               </button>
               <a
                 className="py-[15px] px-[25px] rounded-[5px] whitespace-nowrap bg-[#96BB7C] transition-all ease-linear duration-500 flex gap-[15px] items-center text-sm !leading-[157.143%] tracking-[0.2px] font-bold text-white hover:shadow-[0_2px_15px_rgba(150,_187,_124,_1)]"

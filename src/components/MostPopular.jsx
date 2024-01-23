@@ -27,7 +27,7 @@ const MostPopular = () => {
           data-aos-duration="1000"
           data-aos-easing="linear"
         >
-          Problems trying to resolve the conflict between the two major realms
+          Problems trying to resolve the conflict between<br/> the two major realms
           of Classical physics: Newtonian mechanics
         </p>
         <div className="flex flex-row flex-wrap max-w-[688px] mx-auto justify-between gap-7">

@@ -27,7 +27,7 @@ const EveryClientMatters = () => {
         <p className="text-[#737373] text-[14px] font-normal text-center leading-[143%] tracking-[0.2px] max-w-[469px] mx-auto xl:mb-20 lg:mb-10 md:mb-7 mb-5"data-aos="zoom-in"
               data-aos-duration="1000"
               data-aos-easing="linear">
-          Problems trying to resolve the conflict between the two major realms
+          Problems trying to resolve the conflict between<br/> the two major realms
           of Classical physics: Newtonian mechanics
         </p>
         <div className="flex flex-row flex-wrap max-w-[710px] mx-auto gap-4 sm:justify-between justify-center"data-aos="zoom-in"

@@ -28,8 +28,9 @@ const Newsletter = () => {
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            Problems trying to resolve the conflict between the two major realms
-            of Classical physics: Newtonian mechanics
+            Problems trying to resolve the conflict between
+            <br /> the two major realms of Classical physics: Newtonian
+            mechanics
           </p>
           <div
             className="max-w-[688px] mx-auto bg-[#F9F9F9] border-[#E6E6E6] !rounded-[5px] flex justify-between items-center xl:mb-5"
