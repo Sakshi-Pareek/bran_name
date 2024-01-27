@@ -37,7 +37,7 @@ const HeaderSec = () => {
               >
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 after:ease-in-out"
                     href="#home"
                   >
                     Home
@@ -45,7 +45,7 @@ const HeaderSec = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 after:ease-in-out"
                     href="#Product"
                   >
                     Product
@@ -53,7 +53,7 @@ const HeaderSec = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 after:ease-in-out"
                     href="#Pricing"
                   >
                     Pricing
@@ -61,7 +61,7 @@ const HeaderSec = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 transition-all duration-300 ease-linear after:ease-in-out"
+                    className="text-[#737373] hover:text-[#96BB7C] transition-all duration-300 ease-linear text-sm leading-[171.429%] font-bold translate-[0.2px] after:w-0 after:h-[2px] after:bg-[#96BB7C] after:absolute relative after:left-0 after:bottom-[-2px] hover:after:w-full after:duration-300 after:ease-in-out"
                     href="#Contact"
                   >
                     Contact
